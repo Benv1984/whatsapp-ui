@@ -1,0 +1,88 @@
+export const contactList = [
+    {
+      id: 1,
+      name: "Geralt of Rivia",
+      profilePic: 'https://i.pinimg.com/originals/a2/4b/44/a24b4471326efb3c4e80c576cce4d704.jpg',
+      lastText: "Any work for a witcher?",
+      lastTextTime: "03:48 PM",
+    },
+    {
+      id: 2,
+      name: "Yennefer of Vengerberg",
+      profilePic: 'https://www.melty.fr/wp-content/uploads/meltyfr/2019/12/media-253.jpg',
+      lastText: `Or a Sorceress?`,
+      lastTextTime: "03:51 PM",
+    },
+    {
+      id: 3,
+      name: "Triss Merigold",
+      profilePic: 'https://qph.fs.quoracdn.net/main-qimg-8ce2647afde9f10ddccf4c28e14f09bb-lq',
+      lastText: "Or two sorceresses?",
+      lastTextTime: "03:54 PM",
+    },
+    {
+      id: 4,
+      name: "Ciri",
+      profilePic: 'https://cdn.mos.cms.futurecdn.net/Y29UWeYmvivLg2vqcjzQzX.jpg',
+      lastText: "Travelling to space",
+      lastTextTime: "03:55 PM",
+    },
+    {
+        id: 5,
+        name: "Dandalion",
+        profilePic: 'https://static3.srcdn.com/wordpress/wp-content/uploads/2021/10/Jaskier-in-The-Witcher-Season-2-Trailer.jpg',
+        lastText: "Oh my, a new ballad",
+        lastTextTime: "03:59 PM",
+      },
+      {
+        id: 6,
+        name: "Zoltan Chivai",
+        profilePic: 'https://external-preview.redd.it/R3X2ji0Z14v8xpdFmPbYj3WxfstXSe9jWWa-mDVNXq8.jpg?auto=webp&s=1a75c1c3e6f2c96ba28f7d4e26c02a4578fa161e',
+        lastText: "Dandalion pull yourself together, it is serious!",
+        lastTextTime: "04:01 PM",
+      },
+  ];
+  export const messagesList = [
+    {
+      id: 1,
+      messageType: "TEXT",
+      text: "Any work for a witcher?",
+      senderID: 0,
+      addedOn: "12:00 PM",
+    },
+    {
+      id: 2,
+      messageType: "TEXT",
+      text: "And a sorceress?",
+      senderID: 1,
+      addedOn: "12:01 PM",
+    },
+    {
+      id: 3,
+      messageType: "TEXT",
+      text: "We hunt monsters",
+      senderID: 0,
+      addedOn: "12:02 PM",
+    },
+    {
+      id: 4,
+      messageType: "TEXT",
+      text: "We're pretty skilled as well",
+      senderID: 1,
+      addedOn: "12:03 PM",
+    },
+    {
+      id: 5,
+      messageType: "TEXT",
+      text: "Great 😁",
+      senderID: 0,
+      addedOn: "12:04 PM",
+    },
+    {
+      id: 5,
+      messageType: "TEXT",
+      text: "Have you subscribed The Witcher?",
+      senderID: 1,
+      addedOn: "12:05 PM",
+    },
+  ];
